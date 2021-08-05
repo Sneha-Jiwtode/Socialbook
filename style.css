@@ -340,3 +340,80 @@ nav{
     background: transparent;
     resize: none;
 }
+
+/* Post icons */
+.add__post__links{
+    display: flex;
+    margin-top: 10px;
+}
+.add__post__links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+.add__post__links a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Post Container */
+.post__container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+.user__profile span{
+    font-size: 13px;
+    color: #9a9a9a;
+}
+.post__text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+.post__text span{
+    color: #626262;
+    font-weight: 500;
+}
+.post__text a{
+    color: #1876f2;
+    text-decoration: none;
+}
+.post__img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity__icons div img{
+    width: 18px;
+    margin-right: 10px;
+}
+.activity__icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.post__profile__icon{
+    display: flex;
+    align-items: center;
+}
+.post__profile__icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post__row a{
+    color: #9a9a9a;
+}
